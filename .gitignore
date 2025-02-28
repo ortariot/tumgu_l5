@@ -1,0 +1,17 @@
+__pycache__/
+env/
+.env
+.vscode/
+*.log
+.env.etl
+.env.db
+.env.fastapi
+.env.db.lite_transport
+.env.db.redis
+.env.tests
+storage.txt
+chek.py
+dbdata/
+build/
+pytest_aiohttpreq_p.egg-info/
+pytest_elastic_p.egg-info/
