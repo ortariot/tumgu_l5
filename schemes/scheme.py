@@ -8,6 +8,10 @@ class User(BaseModel):
     password: str = Field(default="auto")
     role: int = Field(default=1)
 
+class AuthUser(BaseModel):
+    login: str = Field(default="auto")
+    password: str = Field(default="auto")
+
 class Role(BaseModel):
     name: str = Field(default="auto")
     level: int = Field(default=1)
